@@ -1,24 +1,22 @@
 {
-  "name": "tessel-workshop",
-  "version": "1.0.0",
-  "description": "a cool workshop",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/noopkat/nodebots.nyc.git"
-  },
-  "author": "Suz Hinton",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/noopkat/nodebots.nyc/issues"
-  },
-  "homepage": "https://github.com/noopkat/nodebots.nyc#readme",
+  "name": "nyc-tessel-workshop",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
   "dependencies": {
     "ambient-attx4": "^0.2.11",
     "azure-iot-device": "^1.4.1",
-    "azure-iot-device-mqtt": "^1.4.1"
-  }
+    "azure-iot-device-mqtt": "^1.4.1",
+    "climate-si7020": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/noopkat/nodebots.nyc.git",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
 }

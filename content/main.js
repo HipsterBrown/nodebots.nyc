@@ -18,8 +18,8 @@ ambient.on('ready', () => {
   });
 });
 
-ambient.on('error', (err) => {
-  console.log(err);
+ambient.on('error', (error) => {
+  console.error(error);
 });
 
 // Set up the handler for the LED direct method call.
